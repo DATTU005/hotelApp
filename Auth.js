@@ -6,8 +6,9 @@ import {
 import auth from "@react-native-firebase/auth";
 import React, { useState, useEffect } from "react";
 import "expo-dev-client";
+import Header from "./Header";
 
-export default function App() {
+export default function Auth() {
   // Set an initializing state whilst Firebase connects
   const [initializing, setInitializing] = useState(true);
   const [user, setUser] = useState();
@@ -62,6 +63,7 @@ export default function App() {
   if (!user) {
     return (
       <View style={styles.container}>
+        <Header />
         <GoogleSigninButton
           style={{ width: 300, height: 65, marginTop: 300 }}
           onPress={onGoogleButtonPress}
@@ -71,6 +73,7 @@ export default function App() {
   }
   return (
     <View style={{ marginTop: 100, alignItems: "center" }}>
+      <Header />
       <Text style={styles.text}>Welcome, {user.displayName}</Text>
 
       <Button title="Sign Out" onPress={signOut} />

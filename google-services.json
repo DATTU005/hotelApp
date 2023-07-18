@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "765781671113",
+    "project_id": "auth-hotelapp",
+    "storage_bucket": "auth-hotelapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765781671113:android:9a36210f646e1149ad2118",
+        "android_client_info": {
+          "package_name": "com.dattu.hotelApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765781671113-buqq9nm1d28u3etcfnu760r1dmmbjpn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dattu.hotelApp",
+            "certificate_hash": "a117f2e4234872d8b674953891e7aeca8a40a797"
+          }
+        },
+        {
+          "client_id": "765781671113-j35gct1ur38dicvgeq1d3opa4k05f7ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dattu.hotelApp",
+            "certificate_hash": "deb823a03c3df4ee295094ed8c760e2f71e439a4"
+          }
+        },
+        {
+          "client_id": "765781671113-c1jm6mciug5197v1o9ln5s9vdebgkrtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj9TLHMMHDzjzbgQlvWeiidPNrueYeaRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765781671113-c1jm6mciug5197v1o9ln5s9vdebgkrtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
